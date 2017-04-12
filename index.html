@@ -1,0 +1,106 @@
+<html>
+<head>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	
+<script src="bootsrap/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="bootsrap/css/bootstrap.min.css" type="text/css" media="all" />
+<script src="javascript.js"></script>
+
+</head>
+<body>
+
+<div class="container">
+  <h2>Books</h2>           
+  <table class="table" id="table">
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Theme</th>
+        <th>Price</th>
+        <th>Year</th>
+      </tr>
+    </thead>
+    <tbody id="th_body">
+      
+    </tbody>
+  </table>
+  
+  <!-- Button trigger modal -->
+  <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal" id="add">
+    Add book
+  </button><br><br>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+       <div class="form">
+       <form action="?" method="post">
+        <div class="form-head"></div><!-- /.form-head -->
+        
+        <div class="form-body" id="form_body">
+         <div class="form-group">
+          <label for="field-1#" class="form-label">Title:</label>
+          
+          <div class="form-controls">
+           <input type="text" class="form-control" name="field-title" id="title" value="">
+          </div><!-- /.form-controls -->
+         </div><!-- /.form-row -->
+         
+         <div class="form-group">
+          <label for="field-2#" class="form-label">Author:</label>
+          
+          <div class="form-controls">
+           <input type="text" class="form-control" name="field-author" id="author" value="">
+          </div><!-- /.form-controls -->
+         </div><!-- /.form-row -->
+         
+         <div class="form-group">
+          <label for="field-3#" class="form-label">Theme:</label>
+          
+          <div class="form-controls">
+           <input type="text" class="form-control" name="field-theme" id="theme" value="">
+          </div><!-- /.form-controls -->
+         </div><!-- /.form-row -->
+
+          <div class="form-group">
+          <label for="field-3#" class="form-label">Price:</label>
+          
+          <div class="form-controls">
+           <input type="text" class="form-control" name="field-price" id="price" value="">
+          </div><!-- /.form-controls -->
+         </div><!-- /.form-row -->
+
+          <div class="form-group">
+          <label for="field-3#" class="form-label">Year:</label>
+          
+          <div class="form-controls">
+           <input type="text" class="form-control" name="field-year" id="year" value="">
+          </div><!-- /.form-controls -->
+         </div><!-- /.form-row -->
+
+        </div><!-- /.form-body -->
+        
+        <button type="button" class="btn btn-default" data-dismiss="modal" id="close">Close</button>
+        <button type="button" class="btn btn-primary" data-dismiss="modal" id="save">Save</button>
+       </form>
+      </div><!-- /.form -->
+      </div>
+    </div>
+  </div>
+</div>
+<p class="container" id="cheap_book">
+
+</p>
+
+</body>
+</html>

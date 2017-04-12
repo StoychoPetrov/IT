@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+
+	<book>
+		<title>Norse Myth</title>
+		<author>Neil Gaiman</author>
+		<author>Ivan Ivanov</author>
+		<theme>Mithology</theme>
+		<price>$20</price>
+		<year>2017</year>
+	</book>
+
+	<book>
+		<title>South and West</title>
+		<author>Joan Didion</author>
+		<author>Georgi Petkov</author>
+		<theme>Literary criticism</theme>
+		<price>$30</price>
+		<year>2017</year>
+	</book>
+
+	<book>
+		<title>The Stranger in the Woods</title>
+		<author>Michael Finkel</author>
+		<theme>Nature</theme>
+		<price>$15</price>
+		<year>2017</year>
+	</book>
+
+	<book>
+		<title>Exit West</title>
+		<author>Mohsin Hamid</author>
+		<theme>Fiction</theme>
+		<price>$50</price>
+		<year>2017</year>
+	</book>
+
+	<book>
+		<title>Spaceman of Bohemia</title>
+		<author>Jaroslav Kalfar</author>
+		<theme>Science Fiction</theme>
+		<price>$100</price>
+		<year>2017</year>
+	</book>
+</catalog>
